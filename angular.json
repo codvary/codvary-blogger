@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "codvary-blogger": {
+    "codvary": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/codvary-blogger",
+            "outputPath": "dist/codvary",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "codvary-blogger:build:production"
+              "buildTarget": "codvary:build:production"
             },
             "development": {
-              "buildTarget": "codvary-blogger:build:development"
+              "buildTarget": "codvary:build:development"
             }
           },
           "defaultConfiguration": "development"
