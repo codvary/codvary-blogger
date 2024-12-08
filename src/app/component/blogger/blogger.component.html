@@ -1,0 +1,6 @@
+<div>
+    <button [attr.id]="selectedBlogger.id" (click)="onSelectBlogger()">
+        <img [src]="imagePath" alt="{{selectedBlogger.name}}"/>
+        <span>{{selectedBlogger.name}}</span>
+    </button>
+</div>
