@@ -1,4 +1,4 @@
-export const DUMMY_BLOGGER = [
+export const DUMMY_USER = [
     {
       id: 'u1',
       name: 'Jasmine Washington',
